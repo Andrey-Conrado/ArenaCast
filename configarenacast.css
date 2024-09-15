@@ -1,0 +1,76 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Poppins", sans-serif;
+  }
+body {
+    font-family: sans-serif;
+    background-image: url('fundo.png');
+    background-size: cover; 
+    background-position: center; 
+    background-repeat: no-repeat;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    max-width: 500px;
+    margin: 150px auto;
+    width: 400px;
+    background: transparent;
+    border: 2px solid #F5D915;
+    backdrop-filter: blur(20px);
+    border-radius: 10px;
+    padding: 30px 20px;
+    overflow: hidden;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  }
+
+h1 {
+    text-align: center;
+    color: #000000;
+    font-weight: 700;
+}
+
+label {
+    display: block;
+    margin-top: 15px;
+    font-weight: 500;
+}
+
+input[type="text"],
+input[type="password"],
+select {
+    width: 100%;
+    padding: 10px;
+    margin-top: 5px;
+    border: 1px solid #000000;
+    border-radius: 5px;
+}
+
+.btn {
+    display: block;
+    width: 100%;
+    padding: 10px;
+    margin-top: 20px;
+    background-color: #FCF68C;
+    color: #000000;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.btn:hover {
+    background-color: #FDFCC4;
+}
+
+.form-group {
+    margin-bottom: 20px;
+}
+
+.seta {
+    position: absolute;
+    top: 20px;
+    left: 20px;
+}
