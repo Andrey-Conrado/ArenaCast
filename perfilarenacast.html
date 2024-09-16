@@ -1,57 +1,45 @@
 <!DOCTYPE html>
-<html lang="pt-BR">
+<html lang="pt-br">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Perfil - ArenaCast</title>
-    <link rel="stylesheet" href="Arenacast2.css">
+    <title>Arenacast</title>
+    <link rel="stylesheet" href="perfilarenacast.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;500;700&display=swap" rel="stylesheet" />
 </head>
 <body>
-    <header>
-        <div class="header-left">
-            <a href="paginainicial.html" class="botao-voltar"><img src="seta.esquerda.png"></a>
-            <img src="arenacast_logo_png.png" class="logo">
-        </div>
-    </header>
-
-    <main>
-        <div class="profile">
-        <div class="profile-header">
-        <img src="" alt="Foto de perfil" class="profile-picture">
-            <p>Edite a sua foto de perfil</p>
+    <div class="seta"></div>
+    <a href="paginainicial.html">
+        <img width="40" height="40" src="https://img.icons8.com/windows/32/long-arrow-left.png" alt="Voltar"/>
+    </a>
+    <div class="container">
+        <h1>Perfil</h1>
+        <form>
+            <div class="form-group">
+                <label for="username">Nome</label>
+                <input type="text" id="username" name="username" placeholder="Digite seu nome"/>
             </div>
-
-            <div class="profile-info">
-                <div class="info-item">
-                    <span class="label">Name</span>
-                    <span class="value">Bia</span>
-                    <span class="edit">></span>
+        <form>
+                <div class="form-group">
+                    <label for="username">Nome de Usuário</label>
+                    <input type="text" id="username" name="username" placeholder="Digite seu nome de usuário"/>
                 </div>
-                <div class="info-item">
-                    <span class="label">Username</span>
-                    <span class="value">@Bia</span>
-                    <span class="edit">></span>
-                </div>
-                <div class="info-item">
-                    <span class="label">Email</span>
-                    <span class="value">Bia@gmail.com</span>
-                    <span class="edit">></span>
-                </div>
-                <div class="info-item">
-                    <span class="label">Links</span>
-                    <div class="value">
-                        <p>website.net</p>
-                        <p>mylink.net</p>
-                        <p>yourlink.net</p>
-                    </div>
-                    <a href="#" class="add-link">+ Add link</a>
-                </div>
-                <div class="info-item">
-                    <span class="label">Bio</span>
-                    <span class="value">21 anos, apaixonada por vôlei!</span>
-                </div>
+            <div class="form-group">
+                <label for="email">Email</label>
+                <input type="email" id="email" name="email" placeholder="Digite seu email"/>
             </div>
-        </div>
-    </main>
+            <div class="form-group">
+                <label for="password">Links</label>
+                <input type="password" id="confirm-password" name="confirm-password" placeholder="website.net" />
+            </div>
+            <div class="form-group">
+                <label for="confirm-password">Bio</label>
+                <input type="password" id="confirm-password" name="confirm-password" placeholder="21 anos, apaixonada por vôlei!" />
+            </div>
+            <button type="submit" class="btn">Salvar Alterações</button>
+        </form>
+    </div>
 </body>
 </html>

@@ -17,7 +17,7 @@ body {
 .container {
     max-width: 500px;
     margin: 150px auto;
-    width: 700px;
+    width: 1500px;
     background: transparent;
     border: 2px solid #F5D915;
     backdrop-filter: blur(20px);
@@ -73,4 +73,11 @@ select {
     position: absolute;
     top: 20px;
     left: 20px;
+}
+.slider{
+    font-weight: 700;
+}
+
+.description{
+    font-weight: 500;
 }
